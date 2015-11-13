@@ -1,0 +1,9 @@
+github "thoughtbot/Argo" "master"
+github "TheLevelUp/LUKeychainAccess" ~> 1.2.5
+github "antitypical/Result" "0.6.0-beta.5"
+github "thoughtbot/Curry" ~> 1.2.0
+
+github "Quick/Quick" ~> 0.8.0
+github "Quick/Nimble" "v3.0.0"
+
+github "luisobo/Nocilla" ~> 0.10.0

@@ -10,8 +10,26 @@
 		209DD24E46201A2A8BDDC765 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5F8752A14A21CC7EA97D62C0 /* Settings.bundle */; };
 		3ECEAEE9E48387D18D1B32D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B40341E5E1AE0245E1C4828 /* Images.xcassets */; };
 		46E8E3B82131F00AA30D0FE2 /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = DC604816E344D4B065332767 /* LaunchScreen.xib */; };
-		7B096411110DD48916225031 /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 1BBDC24A691DE2F227A2FDDF /* Main.storyboard */; };
+		7B096411110DD48916225031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BBDC24A691DE2F227A2FDDF /* Main.storyboard */; };
 		9275D6F980CC168D5078637E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C43D04A909E370F66380C6 /* AppDelegate.swift */; };
+		C16CE3D51BF64A7E00FDCF59 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16CE3D41BF64A7E00FDCF59 /* Login.storyboard */; };
+		C16CE40A1BF6907900FDCF59 /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CE4091BF6907900FDCF59 /* UITests.swift */; };
+		C16CE4151BF693A900FDCF59 /* ApplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CE4141BF693A900FDCF59 /* ApplicationViewController.swift */; };
+		C16CE4171BF6960200FDCF59 /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CE4161BF6960200FDCF59 /* CurrentUser.swift */; };
+		C16CE4191BF696A300FDCF59 /* SecureItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CE4181BF696A300FDCF59 /* SecureItem.swift */; };
+		C16CE43A1BF69D0200FDCF59 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CE4391BF69D0200FDCF59 /* Keychain.swift */; };
+		C16CE43C1BF69D5600FDCF59 /* KeychainAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CE43B1BF69D5600FDCF59 /* KeychainAccess.swift */; };
+		C16CE4411BF69E6E00FDCF59 /* ViewControllerContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CE4401BF69E6E00FDCF59 /* ViewControllerContainer.swift */; };
+		C16CE4481BF6A11300FDCF59 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16CE4441BF6A11300FDCF59 /* Argo.framework */; };
+		C16CE4491BF6A11300FDCF59 /* Argo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C16CE4441BF6A11300FDCF59 /* Argo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C16CE44A1BF6A11300FDCF59 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16CE4451BF6A11300FDCF59 /* Curry.framework */; };
+		C16CE44B1BF6A11300FDCF59 /* Curry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C16CE4451BF6A11300FDCF59 /* Curry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C16CE44C1BF6A11300FDCF59 /* LUKeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16CE4461BF6A11300FDCF59 /* LUKeychainAccess.framework */; };
+		C16CE44D1BF6A11300FDCF59 /* LUKeychainAccess.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C16CE4461BF6A11300FDCF59 /* LUKeychainAccess.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C16CE44E1BF6A11300FDCF59 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16CE4471BF6A11300FDCF59 /* Result.framework */; };
+		C16CE44F1BF6A11300FDCF59 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C16CE4471BF6A11300FDCF59 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C16CE4511BF6A15E00FDCF59 /* Application.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16CE4501BF6A15E00FDCF59 /* Application.storyboard */; };
+		C19660FD1BF6A36B0051CAAB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19660FC1BF6A36B0051CAAB /* LoginViewController.swift */; };
 		E7454EED31B302C7DC5AADAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87A4F3C19437806C2D37164 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,7 +41,31 @@
 			remoteGlobalIDString = 8AB266D8770E3B61896EB022;
 			remoteInfo = "formkeep-ios";
 		};
+		C16CE40C1BF6907900FDCF59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97CB879363D0F8E1FAA85AA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AB266D8770E3B61896EB022;
+			remoteInfo = "formkeep-ios";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C16CE3D01BF648DB00FDCF59 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C16CE44D1BF6A11300FDCF59 /* LUKeychainAccess.framework in Embed Frameworks */,
+				C16CE44B1BF6A11300FDCF59 /* Curry.framework in Embed Frameworks */,
+				C16CE4491BF6A11300FDCF59 /* Argo.framework in Embed Frameworks */,
+				C16CE44F1BF6A11300FDCF59 /* Result.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1BBDC24A691DE2F227A2FDDF /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -34,6 +76,22 @@
 		A85870BA4B5D92645158550B /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87A4F3C19437806C2D37164 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		B6C43D04A909E370F66380C6 /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C16CE3D41BF64A7E00FDCF59 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		C16CE4071BF6907900FDCF59 /* UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16CE4091BF6907900FDCF59 /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
+		C16CE40B1BF6907900FDCF59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C16CE4141BF693A900FDCF59 /* ApplicationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationViewController.swift; sourceTree = "<group>"; };
+		C16CE4161BF6960200FDCF59 /* CurrentUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
+		C16CE4181BF696A300FDCF59 /* SecureItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureItem.swift; sourceTree = "<group>"; };
+		C16CE4391BF69D0200FDCF59 /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		C16CE43B1BF69D5600FDCF59 /* KeychainAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainAccess.swift; sourceTree = "<group>"; };
+		C16CE4401BF69E6E00FDCF59 /* ViewControllerContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerContainer.swift; sourceTree = "<group>"; };
+		C16CE4441BF6A11300FDCF59 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Argo.framework; path = Carthage/Build/iOS/Argo.framework; sourceTree = "<group>"; };
+		C16CE4451BF6A11300FDCF59 /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Curry.framework; path = Carthage/Build/iOS/Curry.framework; sourceTree = "<group>"; };
+		C16CE4461BF6A11300FDCF59 /* LUKeychainAccess.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LUKeychainAccess.framework; path = Carthage/Build/iOS/LUKeychainAccess.framework; sourceTree = "<group>"; };
+		C16CE4471BF6A11300FDCF59 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		C16CE4501BF6A15E00FDCF59 /* Application.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Application.storyboard; sourceTree = "<group>"; };
+		C19660FC1BF6A36B0051CAAB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D944159FA29383BFA80CB42B /* formkeep-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "formkeep-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC604816E344D4B065332767 /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,6 +102,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7454EED31B302C7DC5AADAE /* Foundation.framework in Frameworks */,
+				C16CE44C1BF6A11300FDCF59 /* LUKeychainAccess.framework in Frameworks */,
+				C16CE44E1BF6A11300FDCF59 /* Result.framework in Frameworks */,
+				C16CE4481BF6A11300FDCF59 /* Argo.framework in Frameworks */,
+				C16CE44A1BF6A11300FDCF59 /* Curry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16CE4041BF6907900FDCF59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +193,7 @@
 			children = (
 				D944159FA29383BFA80CB42B /* formkeep-ios.app */,
 				A85870BA4B5D92645158550B /* UnitTests.xctest */,
+				C16CE4071BF6907900FDCF59 /* UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,6 +220,7 @@
 		A8280C7CC7B85EC6BE9F2B93 /* formkeep-ios */ = {
 			isa = PBXGroup;
 			children = (
+				C16CE4111BF6909800FDCF59 /* ViewControllers */,
 				E96AD9AA2EE4B1CE29FDDC8E /* Extensions */,
 				DFA24F9D6903989482F16285 /* Protocols */,
 				FE465B155EFE3553FFBCBE1B /* Models */,
@@ -165,6 +236,8 @@
 			isa = PBXGroup;
 			children = (
 				1BBDC24A691DE2F227A2FDDF /* Main.storyboard */,
+				C16CE3D41BF64A7E00FDCF59 /* Login.storyboard */,
+				C16CE4501BF6A15E00FDCF59 /* Application.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -182,8 +255,13 @@
 		B94F04DFBEDE0A8DCAED33DB = {
 			isa = PBXGroup;
 			children = (
+				C16CE4441BF6A11300FDCF59 /* Argo.framework */,
+				C16CE4451BF6A11300FDCF59 /* Curry.framework */,
+				C16CE4461BF6A11300FDCF59 /* LUKeychainAccess.framework */,
+				C16CE4471BF6A11300FDCF59 /* Result.framework */,
 				A8280C7CC7B85EC6BE9F2B93 /* formkeep-ios */,
 				B60C89F7998124EDFB2FF93B /* UnitTests */,
+				C16CE4081BF6907900FDCF59 /* UITests */,
 				6022EEF539F81AC2625816B3 /* Frameworks */,
 				8C9E7AF8F506C98B989FBB26 /* Products */,
 			);
@@ -192,9 +270,30 @@
 			tabWidth = 4;
 			usesTabs = 0;
 		};
+		C16CE4081BF6907900FDCF59 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C16CE4091BF6907900FDCF59 /* UITests.swift */,
+				C16CE40B1BF6907900FDCF59 /* Info.plist */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		C16CE4111BF6909800FDCF59 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C16CE4141BF693A900FDCF59 /* ApplicationViewController.swift */,
+				C19660FC1BF6A36B0051CAAB /* LoginViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		DFA24F9D6903989482F16285 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				C16CE4181BF696A300FDCF59 /* SecureItem.swift */,
+				C16CE43B1BF69D5600FDCF59 /* KeychainAccess.swift */,
+				C16CE4401BF69E6E00FDCF59 /* ViewControllerContainer.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -216,6 +315,8 @@
 		FE465B155EFE3553FFBCBE1B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C16CE4161BF6960200FDCF59 /* CurrentUser.swift */,
+				C16CE4391BF69D0200FDCF59 /* Keychain.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -232,6 +333,7 @@
 				D5539F3A46A6879C7B09719D /* Resources */,
 				F595AF01DD7C523D0D170657 /* Warn for TODO and FIXME comments */,
 				C41E5EBF897ECA474B6B3BC6 /* Set version number */,
+				C16CE3D01BF648DB00FDCF59 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,6 +343,24 @@
 			productName = "formkeep-ios";
 			productReference = D944159FA29383BFA80CB42B /* formkeep-ios.app */;
 			productType = "com.apple.product-type.application";
+		};
+		C16CE4061BF6907900FDCF59 /* UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C16CE40E1BF6907900FDCF59 /* Build configuration list for PBXNativeTarget "UITests" */;
+			buildPhases = (
+				C16CE4031BF6907900FDCF59 /* Sources */,
+				C16CE4041BF6907900FDCF59 /* Frameworks */,
+				C16CE4051BF6907900FDCF59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C16CE40D1BF6907900FDCF59 /* PBXTargetDependency */,
+			);
+			name = UITests;
+			productName = UITests;
+			productReference = C16CE4071BF6907900FDCF59 /* UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		F9455D3AA00E63899BB66CFE /* UnitTests */ = {
 			isa = PBXNativeTarget;
@@ -267,8 +387,15 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = FK;
-				LastUpgradeCheck = 0510;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = thoughtbot;
+				TargetAttributes = {
+					C16CE4061BF6907900FDCF59 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 8AB266D8770E3B61896EB022;
+					};
+				};
 			};
 			buildConfigurationList = 1089500A114F51F31285430B /* Build configuration list for PBXProject "formkeep-ios" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -284,6 +411,7 @@
 			targets = (
 				8AB266D8770E3B61896EB022 /* formkeep-ios */,
 				F9455D3AA00E63899BB66CFE /* UnitTests */,
+				C16CE4061BF6907900FDCF59 /* UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -296,12 +424,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C16CE4051BF6907900FDCF59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D5539F3A46A6879C7B09719D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16CE3D51BF64A7E00FDCF59 /* Login.storyboard in Resources */,
 				3ECEAEE9E48387D18D1B32D1 /* Images.xcassets in Resources */,
+				C16CE4511BF6A15E00FDCF59 /* Application.storyboard in Resources */,
 				209DD24E46201A2A8BDDC765 /* Settings.bundle in Resources */,
+				7B096411110DD48916225031 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,9 +481,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C19660FD1BF6A36B0051CAAB /* LoginViewController.swift in Sources */,
 				9275D6F980CC168D5078637E /* AppDelegate.swift in Sources */,
-				7B096411110DD48916225031 /* Main.storyboard in Sources */,
 				46E8E3B82131F00AA30D0FE2 /* LaunchScreen.xib in Sources */,
+				C16CE4411BF69E6E00FDCF59 /* ViewControllerContainer.swift in Sources */,
+				C16CE4171BF6960200FDCF59 /* CurrentUser.swift in Sources */,
+				C16CE4151BF693A900FDCF59 /* ApplicationViewController.swift in Sources */,
+				C16CE4191BF696A300FDCF59 /* SecureItem.swift in Sources */,
+				C16CE43A1BF69D0200FDCF59 /* Keychain.swift in Sources */,
+				C16CE43C1BF69D5600FDCF59 /* KeychainAccess.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16CE4031BF6907900FDCF59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16CE40A1BF6907900FDCF59 /* UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +516,11 @@
 			target = 8AB266D8770E3B61896EB022 /* formkeep-ios */;
 			targetProxy = 7A6D2986E9F2F512EFE4B13F /* PBXContainerItemProxy */;
 		};
+		C16CE40D1BF6907900FDCF59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AB266D8770E3B61896EB022 /* formkeep-ios */;
+			targetProxy = C16CE40C1BF6907900FDCF59 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -371,12 +528,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/formkeep-ios.app/formkeep-ios";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtbot.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -437,19 +597,71 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/formkeep-ios.app/formkeep-ios";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtbot.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
+		};
+		C16CE40F1BF6907900FDCF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtbot.UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_TARGET_NAME = "formkeep-ios";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C16CE4101BF6907900FDCF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtbot.UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "formkeep-ios";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
 		};
 		E69CDCBAB04BDEA43A157D1F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -473,6 +685,7 @@
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -511,6 +724,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/xcodeproj.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -521,10 +738,13 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "formkeep-ios/Resources/Other-Sources/Info.plist";
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtbot.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -534,10 +754,15 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/xcodeproj.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "formkeep-ios/Resources/Other-Sources/Info.plist";
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_CFLAGS = (
 					"-DNS_BLOCK_ASSERTIONS=1",
@@ -547,9 +772,11 @@
 					"-DNS_BLOCK_ASSERTIONS=1",
 					"$(inherited)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtbot.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -571,6 +798,15 @@
 			buildConfigurations = (
 				69B931FFC43EFC19083FB8E2 /* Release */,
 				BE08BAABCDC0AF81293AB3FD /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C16CE40E1BF6907900FDCF59 /* Build configuration list for PBXNativeTarget "UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C16CE40F1BF6907900FDCF59 /* Debug */,
+				C16CE4101BF6907900FDCF59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
