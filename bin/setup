@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
 
+if ! command -v carthage > /dev/null; then
+  brew update && install carthage
+fi
+
 bundle install
-pod install
+carthage update
