@@ -8,6 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		209DD24E46201A2A8BDDC765 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5F8752A14A21CC7EA97D62C0 /* Settings.bundle */; };
+		2A0C9A0E1BF7FE8900EB5962 /* Nocilla.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0C9A0B1BF7FDFA00EB5962 /* Nocilla.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2AFB970E1BF8047A00F35D8C /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFB970D1BF8047A00F35D8C /* Session.swift */; };
+		2AFB97151BF8093000F35D8C /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFB97141BF8093000F35D8C /* LoginRequest.swift */; };
+		2AFB97191BF8205700F35D8C /* NocillaHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFB97181BF8205700F35D8C /* NocillaHelpers.swift */; };
+		2AFB971A1BF8205700F35D8C /* NocillaHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFB97181BF8205700F35D8C /* NocillaHelpers.swift */; };
+		2AFB97211BF8261800F35D8C /* login.json in Resources */ = {isa = PBXBuildFile; fileRef = 2AFB97201BF8261800F35D8C /* login.json */; };
+		2AFB97221BF8261800F35D8C /* login.json in Resources */ = {isa = PBXBuildFile; fileRef = 2AFB97201BF8261800F35D8C /* login.json */; };
+		2AFB97251BF8264400F35D8C /* JSONFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFB97241BF8264400F35D8C /* JSONFixtures.swift */; };
+		2AFB97261BF8264400F35D8C /* JSONFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFB97241BF8264400F35D8C /* JSONFixtures.swift */; };
+		2AFB97281BF8269700F35D8C /* FixtureLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFB97271BF8269700F35D8C /* FixtureLoader.swift */; };
+		2AFB97291BF8269700F35D8C /* FixtureLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFB97271BF8269700F35D8C /* FixtureLoader.swift */; };
+		2AFB972D1BF82B2A00F35D8C /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16CE4441BF6A11300FDCF59 /* Argo.framework */; };
+		2AFB972E1BF82B2A00F35D8C /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16CE4451BF6A11300FDCF59 /* Curry.framework */; };
+		2AFB972F1BF82B2A00F35D8C /* LUKeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16CE4461BF6A11300FDCF59 /* LUKeychainAccess.framework */; };
+		2AFB97301BF82B2A00F35D8C /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16CE4471BF6A11300FDCF59 /* Result.framework */; };
+		2AFB97311BF82B2A00F35D8C /* Swish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFB971B1BF8215400F35D8C /* Swish.framework */; };
+		2AFB97471BF82EB000F35D8C /* Swish.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFB97461BF82EB000F35D8C /* Swish.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2AFB97481BF83F2400F35D8C /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16CE4441BF6A11300FDCF59 /* Argo.framework */; };
+		2AFB97491BF83F2400F35D8C /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16CE4451BF6A11300FDCF59 /* Curry.framework */; };
+		2AFB974A1BF83F2400F35D8C /* LUKeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16CE4461BF6A11300FDCF59 /* LUKeychainAccess.framework */; };
+		2AFB974B1BF83F2400F35D8C /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFB97381BF82B6F00F35D8C /* Nimble.framework */; };
+		2AFB974C1BF83F2400F35D8C /* Nocilla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0C9A0B1BF7FDFA00EB5962 /* Nocilla.framework */; };
+		2AFB974D1BF83F2400F35D8C /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFB97391BF82B6F00F35D8C /* Quick.framework */; };
+		2AFB974E1BF83F2400F35D8C /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16CE4471BF6A11300FDCF59 /* Result.framework */; };
+		2AFB974F1BF83F2400F35D8C /* Swish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFB97461BF82EB000F35D8C /* Swish.framework */; };
 		3ECEAEE9E48387D18D1B32D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B40341E5E1AE0245E1C4828 /* Images.xcassets */; };
 		46E8E3B82131F00AA30D0FE2 /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = DC604816E344D4B065332767 /* LaunchScreen.xib */; };
 		7B096411110DD48916225031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BBDC24A691DE2F227A2FDDF /* Main.storyboard */; };
@@ -20,13 +45,9 @@
 		C16CE43A1BF69D0200FDCF59 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CE4391BF69D0200FDCF59 /* Keychain.swift */; };
 		C16CE43C1BF69D5600FDCF59 /* KeychainAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CE43B1BF69D5600FDCF59 /* KeychainAccess.swift */; };
 		C16CE4411BF69E6E00FDCF59 /* ViewControllerContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CE4401BF69E6E00FDCF59 /* ViewControllerContainer.swift */; };
-		C16CE4481BF6A11300FDCF59 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16CE4441BF6A11300FDCF59 /* Argo.framework */; };
 		C16CE4491BF6A11300FDCF59 /* Argo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C16CE4441BF6A11300FDCF59 /* Argo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C16CE44A1BF6A11300FDCF59 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16CE4451BF6A11300FDCF59 /* Curry.framework */; };
 		C16CE44B1BF6A11300FDCF59 /* Curry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C16CE4451BF6A11300FDCF59 /* Curry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C16CE44C1BF6A11300FDCF59 /* LUKeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16CE4461BF6A11300FDCF59 /* LUKeychainAccess.framework */; };
 		C16CE44D1BF6A11300FDCF59 /* LUKeychainAccess.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C16CE4461BF6A11300FDCF59 /* LUKeychainAccess.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C16CE44E1BF6A11300FDCF59 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16CE4471BF6A11300FDCF59 /* Result.framework */; };
 		C16CE44F1BF6A11300FDCF59 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C16CE4471BF6A11300FDCF59 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C16CE4511BF6A15E00FDCF59 /* Application.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16CE4501BF6A15E00FDCF59 /* Application.storyboard */; };
 		C19660FD1BF6A36B0051CAAB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19660FC1BF6A36B0051CAAB /* LoginViewController.swift */; };
@@ -57,8 +78,10 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2AFB97471BF82EB000F35D8C /* Swish.framework in Embed Frameworks */,
 				C16CE44D1BF6A11300FDCF59 /* LUKeychainAccess.framework in Embed Frameworks */,
 				C16CE44B1BF6A11300FDCF59 /* Curry.framework in Embed Frameworks */,
+				2A0C9A0E1BF7FE8900EB5962 /* Nocilla.framework in Embed Frameworks */,
 				C16CE4491BF6A11300FDCF59 /* Argo.framework in Embed Frameworks */,
 				C16CE44F1BF6A11300FDCF59 /* Result.framework in Embed Frameworks */,
 			);
@@ -69,6 +92,17 @@
 
 /* Begin PBXFileReference section */
 		1BBDC24A691DE2F227A2FDDF /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2A0C9A0B1BF7FDFA00EB5962 /* Nocilla.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nocilla.framework; path = Carthage/Build/iOS/Nocilla.framework; sourceTree = "<group>"; };
+		2AFB970D1BF8047A00F35D8C /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		2AFB97141BF8093000F35D8C /* LoginRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginRequest.swift; path = Networking/Requests/LoginRequest.swift; sourceTree = "<group>"; };
+		2AFB97181BF8205700F35D8C /* NocillaHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NocillaHelpers.swift; sourceTree = "<group>"; };
+		2AFB971B1BF8215400F35D8C /* Swish.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swish.framework; path = Carthage/Build/iOS/Swish.framework; sourceTree = "<group>"; };
+		2AFB97201BF8261800F35D8C /* login.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = login.json; path = Fixtures/login.json; sourceTree = "<group>"; };
+		2AFB97241BF8264400F35D8C /* JSONFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONFixtures.swift; sourceTree = "<group>"; };
+		2AFB97271BF8269700F35D8C /* FixtureLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixtureLoader.swift; sourceTree = "<group>"; };
+		2AFB97381BF82B6F00F35D8C /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		2AFB97391BF82B6F00F35D8C /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		2AFB97461BF82EB000F35D8C /* Swish.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swish.framework; path = Carthage/Build/iOS/Swish.framework; sourceTree = "<group>"; };
 		2B40341E5E1AE0245E1C4828 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		506B783C8F0537CA32BCD21A /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		5B4A1EFE3EC878B31E78C792 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,10 +136,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7454EED31B302C7DC5AADAE /* Foundation.framework in Frameworks */,
-				C16CE44C1BF6A11300FDCF59 /* LUKeychainAccess.framework in Frameworks */,
-				C16CE44E1BF6A11300FDCF59 /* Result.framework in Frameworks */,
-				C16CE4481BF6A11300FDCF59 /* Argo.framework in Frameworks */,
-				C16CE44A1BF6A11300FDCF59 /* Curry.framework in Frameworks */,
+				2AFB972D1BF82B2A00F35D8C /* Argo.framework in Frameworks */,
+				2AFB972E1BF82B2A00F35D8C /* Curry.framework in Frameworks */,
+				2AFB972F1BF82B2A00F35D8C /* LUKeychainAccess.framework in Frameworks */,
+				2AFB97301BF82B2A00F35D8C /* Result.framework in Frameworks */,
+				2AFB97311BF82B2A00F35D8C /* Swish.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +148,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AFB97481BF83F2400F35D8C /* Argo.framework in Frameworks */,
+				2AFB97491BF83F2400F35D8C /* Curry.framework in Frameworks */,
+				2AFB974A1BF83F2400F35D8C /* LUKeychainAccess.framework in Frameworks */,
+				2AFB974B1BF83F2400F35D8C /* Nimble.framework in Frameworks */,
+				2AFB974C1BF83F2400F35D8C /* Nocilla.framework in Frameworks */,
+				2AFB974D1BF83F2400F35D8C /* Quick.framework in Frameworks */,
+				2AFB974E1BF83F2400F35D8C /* Result.framework in Frameworks */,
+				2AFB974F1BF83F2400F35D8C /* Swish.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +185,30 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		2AFB97161BF8093900F35D8C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2AFB97171BF8094400F35D8C /* Requests */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		2AFB97171BF8094400F35D8C /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2AFB97141BF8093000F35D8C /* LoginRequest.swift */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		2AFB97231BF8261C00F35D8C /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				2AFB97201BF8261800F35D8C /* login.json */,
+			);
+			name = Fixtures;
+			sourceTree = "<group>";
+		};
 		53087F97FD2E7D4FD3DEF633 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +227,10 @@
 		6022EEF539F81AC2625816B3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2AFB97381BF82B6F00F35D8C /* Nimble.framework */,
+				2AFB97391BF82B6F00F35D8C /* Quick.framework */,
+				2AFB971B1BF8215400F35D8C /* Swish.framework */,
+				2A0C9A0B1BF7FDFA00EB5962 /* Nocilla.framework */,
 				225775CE4436ABADC2857DC0 /* iOS */,
 			);
 			name = Frameworks;
@@ -201,6 +272,9 @@
 		911EBCC2BC80BD590E2EA24E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				2AFB97181BF8205700F35D8C /* NocillaHelpers.swift */,
+				2AFB97241BF8264400F35D8C /* JSONFixtures.swift */,
+				2AFB97271BF8269700F35D8C /* FixtureLoader.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -220,6 +294,7 @@
 		A8280C7CC7B85EC6BE9F2B93 /* formkeep-ios */ = {
 			isa = PBXGroup;
 			children = (
+				2AFB97161BF8093900F35D8C /* Networking */,
 				C16CE4111BF6909800FDCF59 /* ViewControllers */,
 				E96AD9AA2EE4B1CE29FDDC8E /* Extensions */,
 				DFA24F9D6903989482F16285 /* Protocols */,
@@ -245,6 +320,7 @@
 		B60C89F7998124EDFB2FF93B /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
+				2AFB97231BF8261C00F35D8C /* Fixtures */,
 				7B774B7B90E6799456E7C3F0 /* Resources */,
 				911EBCC2BC80BD590E2EA24E /* Helpers */,
 				E2489DA6475A2D4DC351F757 /* Tests */,
@@ -255,6 +331,7 @@
 		B94F04DFBEDE0A8DCAED33DB = {
 			isa = PBXGroup;
 			children = (
+				2AFB97461BF82EB000F35D8C /* Swish.framework */,
 				C16CE4441BF6A11300FDCF59 /* Argo.framework */,
 				C16CE4451BF6A11300FDCF59 /* Curry.framework */,
 				C16CE4461BF6A11300FDCF59 /* LUKeychainAccess.framework */,
@@ -317,6 +394,7 @@
 			children = (
 				C16CE4161BF6960200FDCF59 /* CurrentUser.swift */,
 				C16CE4391BF69D0200FDCF59 /* Keychain.swift */,
+				2AFB970D1BF8047A00F35D8C /* Session.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -334,6 +412,7 @@
 				F595AF01DD7C523D0D170657 /* Warn for TODO and FIXME comments */,
 				C41E5EBF897ECA474B6B3BC6 /* Set version number */,
 				C16CE3D01BF648DB00FDCF59 /* Embed Frameworks */,
+				2AFB97451BF82C7A00F35D8C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -421,6 +500,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AFB97211BF8261800F35D8C /* login.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +508,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AFB97221BF8261800F35D8C /* login.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +527,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2AFB97451BF82C7A00F35D8C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n\n";
+		};
 		C41E5EBF897ECA474B6B3BC6 /* Set version number */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -481,6 +575,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AFB970E1BF8047A00F35D8C /* Session.swift in Sources */,
 				C19660FD1BF6A36B0051CAAB /* LoginViewController.swift in Sources */,
 				9275D6F980CC168D5078637E /* AppDelegate.swift in Sources */,
 				46E8E3B82131F00AA30D0FE2 /* LaunchScreen.xib in Sources */,
@@ -490,6 +585,7 @@
 				C16CE4191BF696A300FDCF59 /* SecureItem.swift in Sources */,
 				C16CE43A1BF69D0200FDCF59 /* Keychain.swift in Sources */,
 				C16CE43C1BF69D5600FDCF59 /* KeychainAccess.swift in Sources */,
+				2AFB97151BF8093000F35D8C /* LoginRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +593,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AFB97291BF8269700F35D8C /* FixtureLoader.swift in Sources */,
+				2AFB971A1BF8205700F35D8C /* NocillaHelpers.swift in Sources */,
+				2AFB97261BF8264400F35D8C /* JSONFixtures.swift in Sources */,
 				C16CE40A1BF6907900FDCF59 /* UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +604,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AFB97191BF8205700F35D8C /* NocillaHelpers.swift in Sources */,
+				2AFB97251BF8264400F35D8C /* JSONFixtures.swift in Sources */,
+				2AFB97281BF8269700F35D8C /* FixtureLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,6 +635,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -602,6 +705,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -625,6 +729,10 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -649,6 +757,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;

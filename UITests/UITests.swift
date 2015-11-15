@@ -6,6 +6,7 @@
 //  Copyright © 2015 thoughtbot. All rights reserved.
 //
 
+import Nocilla
 import XCTest
 
 class UITests: XCTestCase {
@@ -29,7 +30,11 @@ class UITests: XCTestCase {
     }
     
     func testExample() {
-        
+        stubRequest("POST", "https://formkeep.com/api/auth")
+            .withHeaders([ "Accept": "application/json" ])
+            .withBody("{\"email\": \"test@example.com\", \"password\": \"password\"}")
+            .andReturn(200)
+            .withBody("{\"user\": {\"email\": \"test@example.com\", \"auth_token\": \"abc123\"} }")
         
         let app = XCUIApplication()
         let emailTextField = app.textFields["Email"]
@@ -46,5 +51,4 @@ class UITests: XCTestCase {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
-    
 }

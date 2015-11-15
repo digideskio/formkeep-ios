@@ -52,7 +52,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C16CE3F81BF682E700FDCF59"
+               BlueprintIdentifier = "C16CE4061BF6907900FDCF59"
                BuildableName = "UITests.xctest"
                BlueprintName = "UITests"
                ReferencedContainer = "container:formkeep-ios.xcodeproj">

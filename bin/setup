@@ -5,4 +5,7 @@ if ! command -v carthage > /dev/null; then
 fi
 
 bundle install
-carthage update
+
+carthage update --platform ios
+carthage checkout
+carthage build

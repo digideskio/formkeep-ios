@@ -13,9 +13,7 @@ struct CurrentUser {
 
 extension CurrentUser: Decodable {
     static func decode(j: JSON) -> Decoded<CurrentUser> {
-        let curriedInit = curry(CurrentUser.init)
-        
-        return curriedInit
+        return curry(CurrentUser.init)
             <^> j <| "email"
             <*> j <| "auth_token"
     }
